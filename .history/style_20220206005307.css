@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;1,200&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+
+    background-color: hsl(204, 43%, 93%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Karla", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    flex-direction: column;
+}
+
+button {
+    background-color: hsl(71, 73%, 54%);
+    color: white;
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 15%;
+    width: 1440px;
+}
+
+.container2{
+    box-shadow:  5px 5px 15px rgba(0, 0, 0, 0.2);;
+    border-radius: 10px;
+}
+
+.main-line {
+    font-weight: 700;
+}
+
+.sub-container-one {
+    background-color: white;
+}
+
+.sub-container-two {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.text-yellow {
+    color: hsl(71, 73%, 54%);
+}
+
+.box-one {
+
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: hsl(179, 62%, 43%);
+    height: 210px;
+    width: 250px;
+}
+
+.box-two {
+    background-color: #4abebd;
+    height: 210px;
+    width: 250px;
+}
+
+.line-space {
+    margin-left: 20px;
+    font-size: 14px;
+}

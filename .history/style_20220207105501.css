@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200;1,200&family=Open+Sans+Condensed:wght@300&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+    background-color: hsl(204, 43%, 93%);
+}
+
+.container {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    grid-template-columns: 100px 100px 100px;
+    grid-auto-rows: minmax(50px, auto);
+    
+}
+
+.box-one  {
+    background-color: #ffffff;
+    grid-column: 1/4;
+}
+
+.box-two {
+    background-color: hsl(179, 62%, 43%);
+}
+
+.box-three {
+    background-color: #4abebd;
+}
